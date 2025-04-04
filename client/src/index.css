@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+  height:60px;
+}
+
+body{
+  min-height: 1000px;
+  background-color: rgb(241,241,241);
+}
+
+.mt-icons {
+ margin-left: 10px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+.income_class{
+  color:#4CBB17;
+}
+.expense_class{
+  color:#f54e42;
+}
+.forgot_password{
+  cursor:pointer;
+}
+.table_marigin
+{
+  margin-bottom: 200px !important;
+}
+
+.filters{
+  min-height: 150px;
+}
+.lr_page{
+  margin-top: 100px !important;
+}
+
+.image_class{
+ height: 200px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.hero_div{
+  margin: 20px !important;
+}
+
+.hero_heading{
+  color:#0F1111;
+}
+.footer_css{
+  margin-top: 200px;
+}
