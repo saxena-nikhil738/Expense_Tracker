@@ -14,11 +14,6 @@ const router = express.Router();
 // POST || LOGIN USER
 router.post("/login", loginController);
 
-app.get("/", (req, res)=>{
-  console.log("welcome to backend");
-  res.send("Welcome")
-});
-
 router.post("/email-send", emailSendController);
 
 router.post("/change-password", changePasswordController);
