@@ -20,6 +20,11 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors());
 
+app.get("/", (req, res)=>{
+  console.log("welcome to backend");
+  res.send("Welcome")
+});
+
 //routes
 app.use("/api/v1/users", require("./routes/userRoute"));
 
